@@ -19,6 +19,7 @@ print(arr2d.dtype)
 for ele in arr2d:
     print(ele)
 
+
 print('')
 # multidimensional array
 # in 3d array first number represents number of 2d boxes are present;( "2", 3, 3)

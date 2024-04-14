@@ -42,6 +42,7 @@ print("size: ", matrixx.size)
 print("shape: ", matrixx.shape)
 print('dimensions: ', matrixx.ndim)
 
+
 print("hello")
 # creating ndimensional array
 arr = np.ndarray(shape=5, dtype=int)
