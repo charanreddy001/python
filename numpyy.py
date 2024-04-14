@@ -41,3 +41,23 @@ matrixx = np.ndarray(shape=(row, col), dtype=int)
 print("size: ", matrixx.size)
 print("shape: ", matrixx.shape)
 print('dimensions: ', matrixx.ndim)
+
+print("hello")
+# creating ndimensional array
+arr = np.ndarray(shape=5, dtype=int)
+n = arr.size
+print("enter %d elements: " %n)
+for i in range(n):
+    arr[i] = int(input())
+print("elements: ", arr)
+
+rows = int(input("enter number of rows: "))
+column = int(input("enter number of columns: "))
+
+creating = np.ndarray(shape=(rows, column), dtype=int)
+print(f"enter {rows*column} elements of {rows}*{column} matrix: ")
+for rows in range(rows):
+    for column in range(column):
+        creating[rows][column] = int(input())
+print(f"{rows}*{column} matrix is : ")
+print(creating)

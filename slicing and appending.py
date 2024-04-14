@@ -32,6 +32,7 @@ c.extend([34,3445])
 # to add item at a particular place insert is used
 # First one is index and second one is word
 c.insert(2,"charan")
+# while appending first write at which index you want to add not beside or any other index
 print(c)
 # inserting more than one item at a particular place
 c[3:1] = ["chh","ece","mvweio"]
